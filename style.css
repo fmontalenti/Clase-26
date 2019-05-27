@@ -1,12 +1,12 @@
 form {
     display: flex;
     flex-direction: column;
-    width: 300px;
-    height: 250px;
+    width: 400px;
+    height: 300px;
     padding: 15px;
     background-color: pink;
     border-radius: 7px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16px;
     color: #f072a9;
        
@@ -22,7 +22,32 @@ input {
 .input-field {
     border: 3px solid hotpink;
     border-radius: 7px;
+    width: 300px;
+    height: 30px;
+    color: purple;
 }
+.select-field {
+    background-color: pink;
+    color: #f072a9;
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 7px;
+    border: 3px solid hotpink;
+}
+.boton {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #f072a9;
+    border: 3px solid hotpink;
+    width: 200px;
+    margin-left: 50px;
+        
+}
+input[type] {
+    width: 200px;
+    
+}
+
 span {
     width: 100px;
 }
